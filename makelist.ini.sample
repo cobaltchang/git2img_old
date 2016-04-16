@@ -1,0 +1,9 @@
+[DEFAULT]
+
+[nginx]
+builder = CBuilder
+url = https://github.com/nginx/nginx
+
+[requests]
+builder = PythonBuilder
+url = https://github.com/kennethreitz/requests
